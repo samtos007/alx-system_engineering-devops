@@ -1,2 +1,2 @@
 #!/bin/bash
-tree PATH
+tree $PAH | tr ':' '\n' | wc -l
